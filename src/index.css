@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Square {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form {
+  width: 200px;
+}
+
+label {
+  position: absolute;
+  left: -99999px;
+}
+
+input[type="text"] {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 5px;
+  outline: none;
+}
+
+button[type="button"] {
+  margin-top: 15px;
+  padding: 5px;
+  width: 100%;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 5px;
+  outline: none;
+}
